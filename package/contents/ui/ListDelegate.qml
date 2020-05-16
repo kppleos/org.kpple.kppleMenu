@@ -72,7 +72,6 @@ Item {
             PlasmaComponents.Label {
                 id: label
                 anchors.fill: parent
-                color: "black"
             }
         }
     }

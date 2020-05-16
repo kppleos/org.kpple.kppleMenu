@@ -27,7 +27,7 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 Item {
     id: root
     
-    anchors.fill: parent
+    readonly property double wSize: 12.5
     
     // define exec system ( call commands ) : by Uswitch applet! 
     PlasmaCore.DataSource {
@@ -59,21 +59,19 @@ Item {
     Plasmoid.compactRepresentation: null
     Plasmoid.fullRepresentation: Item {
         id: fullRoot
-        anchors.fill: parent
         
-        // define the layout size 
-        Layout.preferredWidth: units.gridUnit * 12
-        Layout.preferredHeight: aboutThisComputerItem.height * 11 // not the best way to code.. 
+        Layout.preferredWidth: units.gridUnit * wSize
+        Layout.preferredHeight: aboutThisComputerItem.height * 11 // not the best way to code..
         
         // define highlight
         PlasmaComponents.Highlight {
             id: delegateHighlight
-            anchors.centerIn: parent
             visible: false
         }
         
         ColumnLayout {
             id: columm
+            anchors.fill: parent
             spacing: 0
             
             ListDelegate {
@@ -90,7 +88,7 @@ Item {
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * 12
+                    implicitWidth: units.gridUnit * wSize
                     implicitHeight: 1.1
                     color: "#1E000000"
                 }
@@ -119,7 +117,7 @@ Item {
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * 12
+                    implicitWidth: units.gridUnit * wSize
                     implicitHeight: 1.1
                     color: "#1E000000"
                 }
@@ -130,7 +128,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Force Quit...")
                 // right shortcut item
-                Text {
+                PlasmaComponents.Label {
                     text: "⌥⌘⎋ "
                     anchors.right: parent.right
                     anchors.verticalCenter: parent.verticalCenter
@@ -145,7 +143,7 @@ Item {
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * 12
+                    implicitWidth: units.gridUnit * wSize
                     implicitHeight: 1.1
                     color: "#1E000000"
                 }
@@ -165,7 +163,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Restart...")
                 onClicked: {
-                    executable.exec("systemctl reboot"); // cmd exec
+                    executable.exec("/sbin/reboot"); // cmd exec
                 }
             }
             
@@ -174,7 +172,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Shut Down...")
                 onClicked: {
-                    executable.exec("systemctl poweroff"); // cmd exec
+                    executable.exec("/sbin/shutdown now"); // cmd exec
                 }
             }
             
@@ -183,7 +181,7 @@ Item {
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * 12
+                    implicitWidth: units.gridUnit * wSize
                     implicitHeight: 1.1
                     color: "#1E000000"
                 }
@@ -194,7 +192,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Lock Screen")
                 // right shortcut item
-                Text {
+                PlasmaComponents.Label {
                     text: "⌃⌘Q "
                     anchors.right: parent.right
                     anchors.verticalCenter: parent.verticalCenter
@@ -209,7 +207,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Log Out")
                 // right shortcut item
-                Text {
+                PlasmaComponents.Label {
                     text: "⇧⌘Q "
                     anchors.right: parent.right
                     anchors.verticalCenter: parent.verticalCenter
