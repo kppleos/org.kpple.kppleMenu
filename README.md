@@ -7,7 +7,7 @@
 ## Previews
 
 <p align="center">
-    <img src="screenshots/light_kppleMenu.png" alt="banner">
+    <img src="screenshots/light_kppleMenu.png" alt="light preview"> <img src="screenshots/dark_kppleMenu.png" alt="dark preview">
 </p>
 
 ## How to install the Kpple menu without Kpple OS on KDE Plasma ?
