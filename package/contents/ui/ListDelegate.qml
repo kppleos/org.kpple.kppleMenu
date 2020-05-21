@@ -47,7 +47,7 @@ Item {
             }
             
             if (area.containsMouse) {
-                highlight.parent = item // higlight on item
+                highlight.parent = item
                 highlight.width = item.width
                 highlight.height = item.height
             }
@@ -59,14 +59,13 @@ Item {
     RowLayout {
         id: row
 
-        // set space before the text item with a empty icon, not the best way for sure aha, i will fix that in the next update
+        // set space before the text item with a empty icon
         Item {
             id: emptySpace
             Layout.minimumWidth: 1 * units.gridUnit
             Layout.maximumWidth: 1 * units.gridUnit
         }
-        
-        // set text item's size
+
         Item {
             height: 24
             PlasmaComponents.Label {

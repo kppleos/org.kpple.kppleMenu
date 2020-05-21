@@ -27,8 +27,6 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 Item {
     id: root
     
-    readonly property double wSize: 12.5
-    
     // define exec system ( call commands ) : by Uswitch applet! 
     PlasmaCore.DataSource {
         id: executable
@@ -55,12 +53,26 @@ Item {
         signal exited(string sourceName, string stdout)
     }
         
-    Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation // set full rep by default
+    Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
     Plasmoid.compactRepresentation: null
     Plasmoid.fullRepresentation: Item {
         id: fullRoot
         
-        Layout.preferredWidth: units.gridUnit * wSize
+        readonly property double iwSize: units.gridUnit * 12.6 // item width 
+        readonly property double shSize: 1.1 // separator height
+        
+        // config var
+        readonly property string aboutThisComputerCMD: plasmoid.configuration.aboutThisComputerSettings
+        readonly property string systemPreferencesCMD: plasmoid.configuration.systemPreferencesSettings
+        readonly property string appStoreCMD: plasmoid.configuration.appStoreSettings
+        readonly property string forceQuitCMD: plasmoid.configuration.forceQuitSettings
+        readonly property string sleepCMD: plasmoid.configuration.sleepSettings
+        readonly property string restartCMD: plasmoid.configuration.restartSettings
+        readonly property string shutDownCMD: plasmoid.configuration.shutDownSettings
+        readonly property string lockScreenCMD: plasmoid.configuration.lockScreenSettings
+        readonly property string logOutCMD: plasmoid.configuration.logOutSettings
+        
+        Layout.preferredWidth: iwSize
         Layout.preferredHeight: aboutThisComputerItem.height * 11 // not the best way to code..
         
         // define highlight
@@ -72,24 +84,25 @@ Item {
         ColumnLayout {
             id: columm
             anchors.fill: parent
-            spacing: 0
+            spacing: 0 // no spacing
             
             ListDelegate {
                 id: aboutThisComputerItem
                 highlight: delegateHighlight
                 text: i18n("About This Computer")
                 onClicked: {
-                    executable.exec("kinfocenter"); // cmd exec
+                    executable.exec(aboutThisComputerCMD); // cmd exec
                 }
             }
             
             MenuSeparator {
+                id: s1
                 padding: 0
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * wSize
-                    implicitHeight: 1.1
+                    implicitWidth: iwSize
+                    implicitHeight: shSize
                     color: "#1E000000"
                 }
             }
@@ -99,7 +112,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("System Preferences...")
                 onClicked: {
-                    executable.exec("systemsettings5"); // cmd exec
+                    executable.exec(systemPreferencesCMD); // cmd exec
                 }
             }
             
@@ -108,17 +121,18 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("App Store...")
                 onClicked: {
-                    executable.exec("plasma-discover"); // cmd exec
+                    executable.exec(appStoreCMD); // cmd exec
                 }
             }
             
             MenuSeparator {
+                id: s2
                 padding: 0
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * wSize
-                    implicitHeight: 1.1
+                    implicitWidth: iwSize
+                    implicitHeight: shSize
                     color: "#1E000000"
                 }
             }
@@ -134,17 +148,18 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 onClicked: {
-                    executable.exec("xkill"); // cmd exec
+                    executable.exec(forceQuitCMD); // cmd exec
                 }
             }
             
             MenuSeparator {
+                id: s3
                 padding: 0
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * wSize
-                    implicitHeight: 1.1
+                    implicitWidth: iwSize
+                    implicitHeight: shSize
                     color: "#1E000000"
                 }
             }
@@ -154,7 +169,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Sleep")
                 onClicked: {
-                    executable.exec("systemctl suspend"); // cmd exec
+                    executable.exec(sleepCMD); // cmd exec
                 }
             }
             
@@ -163,7 +178,7 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Restart...")
                 onClicked: {
-                    executable.exec("/sbin/reboot"); // cmd exec
+                    executable.exec(restartCMD); // cmd exec
                 }
             }
             
@@ -172,17 +187,18 @@ Item {
                 highlight: delegateHighlight
                 text: i18n("Shut Down...")
                 onClicked: {
-                    executable.exec("/sbin/shutdown now"); // cmd exec
+                    executable.exec(shutDownCMD); // cmd exec
                 }
             }
             
             MenuSeparator {
+                id: s4
                 padding: 0
                 topPadding: 5
                 bottomPadding: 5
                 contentItem: Rectangle {
-                    implicitWidth: units.gridUnit * wSize
-                    implicitHeight: 1.1
+                    implicitWidth: iwSize
+                    implicitHeight: shSize
                     color: "#1E000000"
                 }
             }
@@ -198,7 +214,7 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 onClicked: {
-                    executable.exec("qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"); // cmd exec
+                    executable.exec(lockScreenCMD); // cmd exec
                 }
             }
             
@@ -213,7 +229,7 @@ Item {
                     anchors.verticalCenter: parent.verticalCenter
                 }
                 onClicked: {
-                    executable.exec("qdbus org.kde.ksmserver /KSMServer logout 0 0 0"); // cmd exec
+                    executable.exec(logOutCMD); // cmd exec
                 }
             }
         }

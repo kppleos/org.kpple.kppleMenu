@@ -1,14 +1,20 @@
 # Kpple Menu
 
 <p align="center">
-    <img src="screenshots/kppleMenu.png" alt="kpple menu preview">
+    <img src="screenshots/kpple_banner.png" alt="banner">
 </p>
 
-## How to install the kpple menu without Kpple OS on KDE Plasma ?
+## Previews
+
+<p align="center">
+    <img src="screenshots/light_kppleMenu.png" alt="banner">
+</p>
+
+## How to install the Kpple menu without Kpple OS on KDE Plasma ?
 
 The recommended installation method is via the KDE store.
 
-### You can also use another install method ( by git ) :
+##### You can also use another install method ( by git ) :
 
 Open a terminal and follow the steps below.
 
