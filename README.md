@@ -14,13 +14,13 @@
 
 The recommended installation method is via the KDE store.
 
-##### You can also use another install method ( by git ) :
+#### You can also use another install method ( by git ) :
 
 Open a terminal and follow the steps below.
 
 ```bash
 
-git clone https://github.com/kppleos/org.kpple.kppleMenu
+git clone https://github.com/kppleos/org.kpple.kppleMenu.git
 mv org.kpple.kppleMenu/package/* org.kpple.kppleMenu/
 rm org.kpple.kppleMenu/package/
 mv org.kpple.kppleMenu/ ~/.local/share/plasma/plasmoids/org.kpple.kppleMenu 
