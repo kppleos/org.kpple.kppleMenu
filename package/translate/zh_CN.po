@@ -33,7 +33,7 @@ msgstr "强制退出..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "暂停活动"
+msgstr "睡眠"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
@@ -41,7 +41,7 @@ msgstr "重新启动..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "关掉..."
+msgstr "关机..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
@@ -49,15 +49,15 @@ msgstr "锁屏"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "登出"
+msgstr "注销"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "先进"
+msgstr "高级"
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "帮帮我"
+msgstr "帮助"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
@@ -77,7 +77,7 @@ msgstr "关于这台电脑 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "系统偏好设定 :" 
+msgstr "系统设定 :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
@@ -89,15 +89,15 @@ msgstr "强制退出 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "暂停活动 :"
+msgstr "睡眠 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "重新启动 :"
+msgstr "重启 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "关掉 :"
+msgstr "关机 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
@@ -105,7 +105,7 @@ msgstr "锁屏 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "登出:"
+msgstr "注销:"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
