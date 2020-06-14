@@ -29,27 +29,27 @@ msgstr "Magazin de aplicații..."
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
-msgstr "Forțând să plece..." 
+msgstr "Închide forțat..." 
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Pauză activitatea"
+msgstr "Adoarme"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "Pentru a reporni..."
+msgstr "Repornire..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "Opriți..."
+msgstr "Oprire..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Ecran de blocare"
+msgstr "Blocați ecranul"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "Deconectați-vă"
+msgstr "Deconectare"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -61,11 +61,11 @@ msgstr "Ajutor"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
-msgstr "Adaptați legăturile cu propriile linii de comandă"
+msgstr "Adaptați legăturile cu propriile comenzi"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( Avertisment : acesta este modul expert, nu schimbați nimic dacă aplicația funcționează corect. )"
+msgstr "( Avertisment : acesta este modul expert, nu modificați nimic dacă aplicația funcționează corespunzător. )"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
@@ -85,31 +85,31 @@ msgstr "Magazin de aplicații :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Forțând să plece :" 
+msgstr "Închide forțat :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Pauză activitatea :"
+msgstr "Adoarme :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "Pentru a reporni :"
+msgstr "Repornire :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "Opriți :"
+msgstr "Oprește :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Ecran de blocare :"
+msgstr "Blocați ecranul :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Deconectați-vă :"
+msgstr "Deconectare :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "Ai nevoie de ajutor ?"
+msgstr "Aveți nevoie de ajutor ?"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
@@ -129,6 +129,6 @@ msgstr "Donează pentru proiect"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "Nu ai găsit ajutor ? Contactați-ne la următoarea adresă : info.kpple@gmail.com"
+msgstr "Nu ați găsit ceea ce căutați ? Contactați-ne la următoarea adresă : info.kpple@gmail.com"
 
  
