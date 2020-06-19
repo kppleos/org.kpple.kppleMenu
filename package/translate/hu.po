@@ -109,7 +109,7 @@ msgstr "Kijelentkezés :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "Szeretnél segiteni ?"
+msgstr "Segitségre van szükséged ?"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
