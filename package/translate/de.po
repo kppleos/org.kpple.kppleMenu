@@ -33,7 +33,7 @@ msgstr "Beenden erzwingen..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Aussetzen der Aktivität"
+msgstr "Standby-Modus"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
@@ -41,7 +41,7 @@ msgstr "Neustart..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "Schalte aus..."
+msgstr "Herunterfahren..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
