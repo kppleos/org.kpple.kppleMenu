@@ -33,7 +33,7 @@ msgstr "Forçar Encerramento..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Pausar atividade"
+msgstr "Repouso"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
@@ -45,7 +45,7 @@ msgstr "Desligar..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Tela de bloqueio"
+msgstr "Bloquear"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
@@ -57,7 +57,7 @@ msgstr "Avançado"
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "Socorro"
+msgstr "Ajuda"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
@@ -89,7 +89,7 @@ msgstr "Forçar Encerramento :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Pausar atividade :"
+msgstr "Repouso :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
@@ -101,11 +101,11 @@ msgstr "Desligar :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Tela de bloqueio :"
+msgstr "Bloquear :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Sair :"
+msgstr "Finalizar Sessão :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
