@@ -1,43 +1,45 @@
-# Translation of tiledmenu in LANGUAGE
-# Copyright (C) Kpple 2020
-# This file is distributed under the same license as the Kpple Menu package.
+# Translation of kppleMenu in LANGUAGE
+# Copyright (C) 2020
+# This file is distributed under the same license as the kppleMenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: KppleMenu \n"
+"Project-Id-Version: kppleMenu \n"
 "Report-Msgid-Bugs-To: https://github.com/kppleos\n"
 "POT-Creation-Date: 2020-08-26 09:18+0200\n"
-"PO-Revision-Date: 2020-05-20\n"
-"Last-Translator: Borgniet Rudy <borgniet.rudy@hotmail.com>\n"
-"Language: uk\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "Розширений"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "Довідка"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
-msgstr "Адаптуйте посилання за допомогою власних командних рядків"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( Попередження : це експертний режим, не змінюйте нічого, якщо програма працює належним чином. )"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
-msgstr "Показати розширений режим"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "Про цей комп’ютер :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "kinfocenter"
@@ -45,7 +47,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "Налаштування системи :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "systemsettings5"
@@ -53,7 +55,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "App Store :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "plasma-discover"
@@ -61,7 +63,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Сила кинути :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "xkill"
@@ -69,7 +71,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Пауза активність :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "systemctl suspend"
@@ -77,7 +79,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "Щоб перезапустити :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "/sbin/reboot"
@@ -85,7 +87,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "Вимкнути :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "/sbin/shutdown now"
@@ -93,7 +95,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Екран блокування :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
@@ -101,7 +103,7 @@ msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Вийти :"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
@@ -109,60 +111,60 @@ msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "Вам потрібна допомога ?"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
-msgstr "Про Kpple"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Consult the user's guide"
-msgstr "Зверніться до посібника користувача"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Repport a bug"
-msgstr "Повідомити про помилку"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Donate for the project"
-msgstr "Пожертвуйте на проект"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "Не знайшли допомогу ? Звертайтесь до нас за наступною адресою : info.kpple@gmail.com"
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "About This Computer"
-msgstr "Про цей комп’ютер"
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "System Preferences..."
-msgstr "Налаштування системи..."
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
-msgstr "App Store..."
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
-msgstr "Сила кинути..."
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Пауза активність"
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "Щоб перезапустити..."
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "Вимкнути..."
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Екран блокування"
+msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "Вийти"
+msgstr ""

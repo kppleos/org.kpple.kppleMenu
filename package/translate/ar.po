@@ -1,4 +1,4 @@
- # Translation of tiledmenu in LANGUAGE
+# Translation of tiledmenu in LANGUAGE
 # Copyright (C) Kpple 2020
 # This file is distributed under the same license as the Kpple Menu package.
 #
@@ -6,50 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KppleMenu \n"
-"Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
-"POT-Creation-Date: 2020-05-19\n"
+"Report-Msgid-Bugs-To: https://github.com/kppleos\n"
+"POT-Creation-Date: 2020-08-26 09:18+0200\n"
 "PO-Revision-Date: 2020-05-20\n"
 "Last-Translator: Borgniet Rudy <borgniet.rudy@hotmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../contents/ui/main.qml
-msgid "About This Computer"
-msgstr "حول هذا الكمبيوتر" 
-
-#: ../contents/ui/main.qml
-msgid "System Preferences..."
-msgstr "تفضيلات النظام ..." 
-
-#: ../contents/ui/main.qml
-msgid "App Store..."
-msgstr "متجر التطبيقات..." 
-
-#: ../contents/ui/main.qml
-msgid "Force Quit..."
-msgstr "القوة لترك ..." 
-
-#: ../contents/ui/main.qml
-msgid "Sleep"
-msgstr "إيقاف النشاط مؤقتًا"
-
-#: ../contents/ui/main.qml
-msgid "Restart..."
-msgstr "لإعادة التشغيل..."
-
-#: ../contents/ui/main.qml
-msgid "Shut Down..."
-msgstr "اطفيء..."
-
-#: ../contents/ui/main.qml
-msgid "Lock Screen"
-msgstr "اقفل الشاشة"
-
-#: ../contents/ui/main.qml
-msgid "Log Out"
-msgstr "تسجيل خروج"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -73,39 +37,75 @@ msgstr "إظهار الوضع المتقدم"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "حول هذا الكمبيوتر :" 
+msgstr "حول هذا الكمبيوتر :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "kinfocenter"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "تفضيلات النظام :" 
+msgstr "تفضيلات النظام :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "systemsettings5"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "متجر التطبيقات :" 
+msgstr "متجر التطبيقات :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "plasma-discover"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "القوة لترك :" 
+msgstr "القوة لترك :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "xkill"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
 msgstr "إيقاف النشاط مؤقتًا :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "systemctl suspend"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
 msgstr "لإعادة التشغيل :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/reboot"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
 msgstr "اطفيء :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/shutdown now"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
 msgstr "اقفل الشاشة :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
 msgstr "تسجيل خروج :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
@@ -131,3 +131,38 @@ msgstr "تبرع للمشروع"
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
 msgstr "لم تجد المساعدة؟ اتصل بنا على العنوان التالي : info.kpple@gmail.com"
 
+#: ../contents/ui/main.qml
+msgid "About This Computer"
+msgstr "حول هذا الكمبيوتر"
+
+#: ../contents/ui/main.qml
+msgid "System Preferences..."
+msgstr "تفضيلات النظام ..."
+
+#: ../contents/ui/main.qml
+msgid "App Store..."
+msgstr "متجر التطبيقات..."
+
+#: ../contents/ui/main.qml
+msgid "Force Quit..."
+msgstr "القوة لترك ..."
+
+#: ../contents/ui/main.qml
+msgid "Sleep"
+msgstr "إيقاف النشاط مؤقتًا"
+
+#: ../contents/ui/main.qml
+msgid "Restart..."
+msgstr "لإعادة التشغيل..."
+
+#: ../contents/ui/main.qml
+msgid "Shut Down..."
+msgstr "اطفيء..."
+
+#: ../contents/ui/main.qml
+msgid "Lock Screen"
+msgstr "اقفل الشاشة"
+
+#: ../contents/ui/main.qml
+msgid "Log Out"
+msgstr "تسجيل خروج"

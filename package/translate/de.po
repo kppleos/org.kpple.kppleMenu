@@ -6,50 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KppleMenu \n"
-"Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
-"POT-Creation-Date: 2020-05-19\n"
+"Report-Msgid-Bugs-To: https://github.com/kppleos\n"
+"POT-Creation-Date: 2020-08-26 09:18+0200\n"
 "PO-Revision-Date: 2020-05-19\n"
 "Last-Translator: Borgniet Rudy <borgniet.rudy@hotmail.com>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../contents/ui/main.qml
-msgid "About This Computer"
-msgstr "Über diesen Computer" 
-
-#: ../contents/ui/main.qml
-msgid "System Preferences..."
-msgstr "System-Einstellungen..." 
-
-#: ../contents/ui/main.qml
-msgid "App Store..."
-msgstr "App Store..." 
-
-#: ../contents/ui/main.qml
-msgid "Force Quit..."
-msgstr "Beenden erzwingen..." 
-
-#: ../contents/ui/main.qml
-msgid "Sleep"
-msgstr "Standby-Modus"
-
-#: ../contents/ui/main.qml
-msgid "Restart..."
-msgstr "Neustart..."
-
-#: ../contents/ui/main.qml
-msgid "Shut Down..."
-msgstr "Herunterfahren..."
-
-#: ../contents/ui/main.qml
-msgid "Lock Screen"
-msgstr "Bildschirm sperren"
-
-#: ../contents/ui/main.qml
-msgid "Log Out"
-msgstr "Ausloggen"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -60,8 +24,8 @@ msgid "Help"
 msgstr "Hilfe"
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Adapt the links with your own command line"
-msgstr "Passen Sie die Links mit Ihrer eigenen Befehlszeile an"
+msgid "Adapt the links with your own command lines"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
@@ -73,39 +37,75 @@ msgstr "Erweiterten Modus anzeigen"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "Über diesen Computer :" 
+msgstr "Über diesen Computer :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "kinfocenter"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "System-Einstellungen :" 
+msgstr "System-Einstellungen :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "systemsettings5"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "App Store :" 
+msgstr "App Store :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "plasma-discover"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Beenden erzwingen :" 
+msgstr "Beenden erzwingen :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "xkill"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
 msgstr "Aussetzen der Aktivität :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "systemctl suspend"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
 msgstr "Neustart :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/reboot"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
 msgstr "Schalte aus :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/shutdown now"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
 msgstr "Bildschirm sperren :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
 msgstr "Ausloggen :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
@@ -131,5 +131,41 @@ msgstr "Für das Projekt spenden"
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
 msgstr "Konnten Sie keine Hilfe finden ? Kontaktieren Sie uns unter : info.kpple@gmail.com"
 
- 
- 
+#: ../contents/ui/main.qml
+msgid "About This Computer"
+msgstr "Über diesen Computer"
+
+#: ../contents/ui/main.qml
+msgid "System Preferences..."
+msgstr "System-Einstellungen..."
+
+#: ../contents/ui/main.qml
+msgid "App Store..."
+msgstr "App Store..."
+
+#: ../contents/ui/main.qml
+msgid "Force Quit..."
+msgstr "Beenden erzwingen..."
+
+#: ../contents/ui/main.qml
+msgid "Sleep"
+msgstr "Standby-Modus"
+
+#: ../contents/ui/main.qml
+msgid "Restart..."
+msgstr "Neustart..."
+
+#: ../contents/ui/main.qml
+msgid "Shut Down..."
+msgstr "Herunterfahren..."
+
+#: ../contents/ui/main.qml
+msgid "Lock Screen"
+msgstr "Bildschirm sperren"
+
+#: ../contents/ui/main.qml
+msgid "Log Out"
+msgstr "Ausloggen"
+
+#~ msgid "Adapt the links with your own command line"
+#~ msgstr "Passen Sie die Links mit Ihrer eigenen Befehlszeile an"
