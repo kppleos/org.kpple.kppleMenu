@@ -6,50 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KppleMenu \n"
-"Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
-"POT-Creation-Date: 2020-06-19\n"
+"Report-Msgid-Bugs-To: https://github.com/kppleos\n"
+"POT-Creation-Date: 2020-08-26 09:18+0200\n"
 "PO-Revision-Date: 2020-06-19\n"
 "Last-Translator: Armand Bozsik <me@armands.site>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../contents/ui/main.qml
-msgid "About This Computer"
-msgstr "A rendszer névjegye" 
-
-#: ../contents/ui/main.qml
-msgid "System Preferences..."
-msgstr "Rendszerbeállítások..." 
-
-#: ../contents/ui/main.qml
-msgid "App Store..."
-msgstr "App Store..." 
-
-#: ../contents/ui/main.qml
-msgid "Force Quit..."
-msgstr "Kilépésre kényszerítés..." 
-
-#: ../contents/ui/main.qml
-msgid "Sleep"
-msgstr "Alvó állapot"
-
-#: ../contents/ui/main.qml
-msgid "Restart..."
-msgstr "Újraindítás"
-
-#: ../contents/ui/main.qml
-msgid "Shut Down..."
-msgstr "Leállítás..."
-
-#: ../contents/ui/main.qml
-msgid "Lock Screen"
-msgstr "Képernyő zárolása"
-
-#: ../contents/ui/main.qml
-msgid "Log Out"
-msgstr "Kijelentkezés"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -73,39 +37,75 @@ msgstr "Haladó mód mutatása"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "A rendszer névjegye :" 
+msgstr "A rendszer névjegye :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "kinfocenter"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "Rendszerbeállítások :" 
+msgstr "Rendszerbeállítások :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "systemsettings5"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "App Store :" 
+msgstr "App Store :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "plasma-discover"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Kilépésre kényszerítés :" 
+msgstr "Kilépésre kényszerítés :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "xkill"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
 msgstr "Alvó állapot :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "systemctl suspend"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
 msgstr "Újraindítás :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/reboot"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
 msgstr "Leállítás :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/shutdown now"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
 msgstr "Képernyő zárolása :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
 msgstr "Kijelentkezés :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
@@ -131,4 +131,38 @@ msgstr "A projekt támogatása"
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
 msgstr "Nem találtál megoldást ? Vedd fel velünk a kapcsolatot: info.kpple@gmail.com"
 
- 
+#: ../contents/ui/main.qml
+msgid "About This Computer"
+msgstr "A rendszer névjegye"
+
+#: ../contents/ui/main.qml
+msgid "System Preferences..."
+msgstr "Rendszerbeállítások..."
+
+#: ../contents/ui/main.qml
+msgid "App Store..."
+msgstr "App Store..."
+
+#: ../contents/ui/main.qml
+msgid "Force Quit..."
+msgstr "Kilépésre kényszerítés..."
+
+#: ../contents/ui/main.qml
+msgid "Sleep"
+msgstr "Alvó állapot"
+
+#: ../contents/ui/main.qml
+msgid "Restart..."
+msgstr "Újraindítás"
+
+#: ../contents/ui/main.qml
+msgid "Shut Down..."
+msgstr "Leállítás..."
+
+#: ../contents/ui/main.qml
+msgid "Lock Screen"
+msgstr "Képernyő zárolása"
+
+#: ../contents/ui/main.qml
+msgid "Log Out"
+msgstr "Kijelentkezés"

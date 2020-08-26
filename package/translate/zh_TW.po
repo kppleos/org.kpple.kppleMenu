@@ -6,50 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KppleMenu \n"
-"Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
-"POT-Creation-Date: 2020-05-19\n"
+"Report-Msgid-Bugs-To: https://github.com/kppleos\n"
+"POT-Creation-Date: 2020-08-26 09:18+0200\n"
 "PO-Revision-Date: 2020-05-20\n"
 "Last-Translator: Borgniet Rudy <borgniet.rudy@hotmail.com>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ../contents/ui/main.qml
-msgid "About This Computer"
-msgstr "關於這台電腦" 
-
-#: ../contents/ui/main.qml
-msgid "System Preferences..."
-msgstr "系統偏好設定..." 
-
-#: ../contents/ui/main.qml
-msgid "App Store..."
-msgstr "應用商店..." 
-
-#: ../contents/ui/main.qml
-msgid "Force Quit..."
-msgstr "強制退出..." 
-
-#: ../contents/ui/main.qml
-msgid "Sleep"
-msgstr "暫停活動"
-
-#: ../contents/ui/main.qml
-msgid "Restart..."
-msgstr "重新啟動..."
-
-#: ../contents/ui/main.qml
-msgid "Shut Down..."
-msgstr "關掉..."
-
-#: ../contents/ui/main.qml
-msgid "Lock Screen"
-msgstr "鎖屏"
-
-#: ../contents/ui/main.qml
-msgid "Log Out"
-msgstr "登出"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -73,39 +37,75 @@ msgstr "顯示高級模式"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "關於這台電腦 :" 
+msgstr "關於這台電腦 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "kinfocenter"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "系統偏好設定 :" 
+msgstr "系統偏好設定 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "systemsettings5"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "應用商店 :" 
+msgstr "應用商店 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "plasma-discover"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "強制退出 :" 
+msgstr "強制退出 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "xkill"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
 msgstr "暫停活動 :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "systemctl suspend"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
 msgstr "重新啟動 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/reboot"
+msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
 msgstr "關掉 :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "/sbin/shutdown now"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
 msgstr "鎖屏 :"
 
 #: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
+msgstr ""
+
+#: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
 msgstr "登出 :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
+msgstr ""
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
@@ -131,4 +131,38 @@ msgstr "為項目捐款"
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
 msgstr "沒有找到幫助？請通過以下地址聯繫我們 : info.kpple@gmail.com"
 
- 
+#: ../contents/ui/main.qml
+msgid "About This Computer"
+msgstr "關於這台電腦"
+
+#: ../contents/ui/main.qml
+msgid "System Preferences..."
+msgstr "系統偏好設定..."
+
+#: ../contents/ui/main.qml
+msgid "App Store..."
+msgstr "應用商店..."
+
+#: ../contents/ui/main.qml
+msgid "Force Quit..."
+msgstr "強制退出..."
+
+#: ../contents/ui/main.qml
+msgid "Sleep"
+msgstr "暫停活動"
+
+#: ../contents/ui/main.qml
+msgid "Restart..."
+msgstr "重新啟動..."
+
+#: ../contents/ui/main.qml
+msgid "Shut Down..."
+msgstr "關掉..."
+
+#: ../contents/ui/main.qml
+msgid "Lock Screen"
+msgstr "鎖屏"
+
+#: ../contents/ui/main.qml
+msgid "Log Out"
+msgstr "登出"
