@@ -21,7 +21,7 @@ msgstr "O komputerze"
 
 #: ../contents/ui/main.qml
 msgid "System Preferences..."
-msgstr "Preferencje systemowe" 
+msgstr "Ustawienia systemowe" 
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
@@ -77,7 +77,7 @@ msgstr "O tym komputerze:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "Preferencje systemowe:" 
+msgstr "Ustawienia systemowe:" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store:"
@@ -113,7 +113,7 @@ msgstr "Potrzebujesz pomocy?"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
-msgstr "O Kpple'u"
+msgstr "O Kpple Menu"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Consult the user's guide"
