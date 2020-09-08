@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
 "POT-Creation-Date: 2020-05-19\n"
 "PO-Revision-Date: 2020-05-20\n"
-"Last-Translator: Borgniet Rudy <borgniet.rudy@hotmail.com>\n"
+"Last-Translator: Piotr Komur (pkomur@gmail.com)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,35 +17,35 @@ msgstr ""
 
 #: ../contents/ui/main.qml
 msgid "About This Computer"
-msgstr "O tym komputerze" 
+msgstr "O komputerze" 
 
 #: ../contents/ui/main.qml
 msgid "System Preferences..."
-msgstr "Preferencje systemowe..." 
+msgstr "Ustawienia systemowe" 
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
-msgstr "App Store..." 
+msgstr "App Store" 
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
-msgstr "Zmuszanie do wyjazdu..." 
+msgstr "Wymuś zamknięcie okna" 
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Zawieszenie działalności"
+msgstr "Uśpij"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "Restart..."
+msgstr "Uruchom ponownie"
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "Wyłączyć..."
+msgstr "Wyłącz"
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Ekran blokujący"
+msgstr "Zablokuj ekran"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
@@ -61,11 +61,11 @@ msgstr "Pomoc"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
-msgstr "Dostosuj łącza do własnych linii poleceń"
+msgstr "Zmień ustawienia poleceń"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( Ostrzeżenie : To jest tryb ekspercki, nie zmieniaj niczego, jeśli aplikacja działa poprawnie. )"
+msgstr "(Ostrzeżenie: To jest tryb zaawansowany. Nie zmieniaj niczego, jeśli aplikacja działa poprawnie.)"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
@@ -73,47 +73,47 @@ msgstr "Pokaż tryb zaawansowany"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "O tym komputerze :" 
+msgstr "O tym komputerze:" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "Preferencje systemowe :" 
+msgstr "Ustawienia systemowe:" 
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "App Store :"
+msgid "App Store:"
 msgstr "App Store :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Zmuszanie do wyjazdu :" 
+msgstr "Wymuś zamknięcie okna:" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Zawieszenie działalności :"
+msgstr "Uśpij:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "Restart :"
+msgstr "Uruchom ponownie:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "Wyłączyć :"
+msgstr "Wyłącz:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Ekran blokujący :"
+msgstr "Zablokuj ekran:"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Wyloguj się :"
+msgstr "Wyloguj się:"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "Potrzebujesz pomocy ?"
+msgstr "Potrzebujesz pomocy?"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
-msgstr "O Kpple'u"
+msgstr "O Kpple Menu"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Consult the user's guide"
@@ -125,9 +125,9 @@ msgstr "Zgłosić błąd"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Donate for the project"
-msgstr "Przekazać na rzecz projektu"
+msgstr "Wesprzyj projekt"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "Nie mogłeś znaleźć żadnej pomocy ? Skontaktuj się z nami pod następującym adresem : info.kpple@gmail.com"
+msgstr "Nie mogłeś znaleźć żadnej pomocy? Skontaktuj się z nami pod następującym adresem: info.kpple@gmail.com"
 
