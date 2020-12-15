@@ -25,7 +25,7 @@ msgstr "システム環境設定..."
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
-msgstr "アプリストア..." 
+msgstr "App Store..." 
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
@@ -33,19 +33,19 @@ msgstr "強制終了..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "アクティビティを一時停止"
+msgstr "スリープ"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "再起動します..."
+msgstr "再起動..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "スイッチを切る..."
+msgstr "システム終了..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "ロック画面"
+msgstr "画面をロック"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
@@ -53,23 +53,23 @@ msgstr "ログアウト"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "上級"
+msgstr "詳細設定"
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "助けて"
+msgstr "ヘルプ"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
-msgstr "独自のコマンドラインでリンクを適合させる"
+msgstr "機能にコマンドラインを設定します"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( 警告：これはエキスパートモードです。アプリケーションが正常に動作している場合は、何も変更しないでください。 )"
+msgstr "( 警告 : こちらは上級者向け設定です。アプリが正常に動作している場合は何も変更しないでください。 )"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
-msgstr "詳細モードを表示"
+msgstr "詳細設定を表示する"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
@@ -81,7 +81,7 @@ msgstr "システム環境設定 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "アプリストア :" 
+msgstr "App Store :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
@@ -89,19 +89,19 @@ msgstr "強制終了 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "アクティビティを一時停止 :"
+msgstr "スリープ :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "再起動します :"
+msgstr "再起動 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "スイッチを切る :"
+msgstr "システム終了 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "ロック画面 :"
+msgstr "画面をロック :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
@@ -109,7 +109,7 @@ msgstr "ログアウト :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "あなたは助けが必要ですか？"
+msgstr "何かお困りでしょうか？"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
@@ -117,7 +117,7 @@ msgstr "Kppleについて"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Consult the user's guide"
-msgstr "ユーザーガイドを参照してください"
+msgstr "ユーザーガイドを参照"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Repport a bug"
@@ -125,10 +125,10 @@ msgstr "バグを報告"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Donate for the project"
-msgstr "プロジェクトに寄付する"
+msgstr "プロジェクトに寄付"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "ヘルプが見つかりませんでしたか？次のアドレスまでご連絡ください : info.kpple@gmail.com"
+msgstr "解決できませんでしたか？その場合はこちらまでご連絡ください : info.kpple@gmail.com"
 
  
