@@ -6,6 +6,19 @@
   <kcfgfile name=""/>
 
   <group name="Advanced">
+    <entry name="icon" type="String">
+      <label>The name of the icon to use for the compact representation (e.g. on a small panel).</label>
+      <default>start-here-kde</default>
+    </entry>
+    <entry name="useCustomButtonImage" type="Bool">
+      <label>Whether to use a custom image instead of an icon in the compact representation (e.g. on a small panel).</label>
+      <default>false</default>
+    </entry>
+    <entry name="customButtonImage" type="Url">
+      <label>The URL of the custtom image to use instead of an icon in the compact representation (e.g. on a small panel).</label>
+      <default></default>
+    </entry>
+
     <entry name="showAdvancedMode" type="Bool">
       <default>false</default>
     </entry>

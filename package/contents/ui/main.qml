@@ -234,6 +234,10 @@ Item {
             }
         }
     }
+
+    Plasmoid.icon: plasmoid.configuration.useCustomButtonImage ? plasmoid.configuration.customButtonImage : plasmoid.configuration.icon
+
+
 } // end item
 
 
