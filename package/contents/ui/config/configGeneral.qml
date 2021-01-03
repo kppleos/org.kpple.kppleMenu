@@ -22,6 +22,14 @@ import QtQuick.Layouts 1.1
 
 import org.kde.kirigami 2.4 as Kirigami
 
+import org.kde.plasma.core 2.0 as PlasmaCore
+import org.kde.kquickcontrolsaddons 2.0 as KQuickAddons
+import org.kde.draganddrop 2.0 as DragDrop
+import QtQuick.Dialogs 1.2
+
+import org.kde.plasma.components 2.0 as PlasmaComponents
+
+
 Item {
     id: page
     
@@ -39,7 +47,117 @@ Item {
     property alias cfg_lockScreenSettings: lockScreenSettings.text
     property alias cfg_logOutSettings: logOutSettings.text
 
+    property string cfg_icon: plasmoid.configuration.icon
+    property bool cfg_useCustomButtonImage: plasmoid.configuration.useCustomButtonImage
+    property string cfg_customButtonImage: plasmoid.configuration.customButtonImage
+
+
     Kirigami.FormLayout {
+
+        RowLayout {
+            spacing: units.smallSpacing
+
+            Label {
+                text: i18n("Icon:")
+            }
+
+            Button {
+                id: iconButton
+                Layout.minimumWidth: previewFrame.width + units.smallSpacing * 2
+                Layout.maximumWidth: Layout.minimumWidth
+                Layout.minimumHeight: previewFrame.height + units.smallSpacing * 2
+                Layout.maximumHeight: Layout.minimumWidth
+
+                DragDrop.DropArea {
+                    id: dropArea
+
+                    property bool containsAcceptableDrag: false
+
+                    anchors.fill: parent
+
+                    onDragEnter: {
+                        // Cannot use string operations (e.g. indexOf()) on "url" basic type.
+                        var urlString = event.mimeData.url.toString();
+
+                        // This list is also hardcoded in KIconDialog.
+                        var extensions = [".png", ".xpm", ".svg", ".svgz"];
+                        containsAcceptableDrag = urlString.indexOf("file:///") === 0 && extensions.some(function (extension) {
+                            return urlString.indexOf(extension) === urlString.length - extension.length; // "endsWith"
+                        });
+
+                        if (!containsAcceptableDrag) {
+                            event.ignore();
+                        }
+                    }
+                    onDragLeave: containsAcceptableDrag = false
+
+                    onDrop: {
+                        if (containsAcceptableDrag) {
+                            // Strip file:// prefix, we already verified in onDragEnter that we have only local URLs.
+                            iconDialog.setCustomButtonImage(event.mimeData.url.toString().substr("file://".length));
+                        }
+                        containsAcceptableDrag = false;
+                    }
+                }
+
+                KQuickAddons.IconDialog {
+                    id: iconDialog
+
+                    function setCustomButtonImage(image) {
+                        cfg_customButtonImage = image || cfg_icon || "start-here-kde"
+                        cfg_useCustomButtonImage = true;
+                    }
+
+                    onIconNameChanged: setCustomButtonImage(iconName);
+                }
+
+                // just to provide some visual feedback, cannot have checked without checkable enabled
+                checkable: true
+                checked: dropArea.containsAcceptableDrag
+                onClicked: {
+                    checked = Qt.binding(function() { // never actually allow it being checked
+                        return iconMenu.status === PlasmaComponents.DialogStatus.Open || dropArea.containsAcceptableDrag;
+                    })
+
+                    iconMenu.open(0, height)
+                }
+
+                PlasmaCore.FrameSvgItem {
+                    id: previewFrame
+                    anchors.centerIn: parent
+                    imagePath: plasmoid.location === PlasmaCore.Types.Vertical || plasmoid.location === PlasmaCore.Types.Horizontal
+                            ? "widgets/panel-background" : "widgets/background"
+                    width: units.iconSizes.large + fixedMargins.left + fixedMargins.right
+                    height: units.iconSizes.large + fixedMargins.top + fixedMargins.bottom
+
+                    PlasmaCore.IconItem {
+                        anchors.centerIn: parent
+                        width: units.iconSizes.large
+                        height: width
+                        source: cfg_useCustomButtonImage ? cfg_customButtonImage : cfg_icon
+                    }
+                }
+            }
+
+            // QQC Menu can only be opened at cursor position, not a random one
+            PlasmaComponents.ContextMenu {
+                id: iconMenu
+                visualParent: iconButton
+
+                PlasmaComponents.MenuItem {
+                    text: i18nc("@item:inmenu Open icon chooser dialog", "Choose...")
+                    icon: "document-open-folder"
+                    onClicked: iconDialog.open()
+                }
+                PlasmaComponents.MenuItem {
+                    text: i18nc("@item:inmenu Reset icon to default", "Clear Icon")
+                    icon: "edit-clear"
+                    onClicked: {
+                        cfg_useCustomButtonImage = false;
+                    }
+                }
+            }
+        }
 
         Column {
             anchors.left: parent.left
