@@ -1,0 +1,139 @@
+# Translation of tiledmenu in LANGUAGE
+# Copyright (C) Kpple 2020
+# This file is distributed under the same license as the Kpple Menu package.
+#
+# Safak <bjksafak45@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: KppleMenu \n"
+"Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
+"POT-Creation-Date: YY-MM-DD\n"
+"PO-Revision-Date: 2020-09-30 12:49+0300\n"
+"Last-Translator: Safak <bjksafak45@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ../contents/ui/main.qml
+msgid "About This Computer"
+msgstr "Bu Bilgisayar Hakkında"
+
+#: ../contents/ui/main.qml
+msgid "System Preferences..."
+msgstr "Sistem Tercihleri..."
+
+#: ../contents/ui/main.qml
+msgid "App Store..."
+msgstr "Uygulama Mağazası..."
+
+#: ../contents/ui/main.qml
+msgid "Force Quit..."
+msgstr "Kapatmaya Zorla..."
+
+#: ../contents/ui/main.qml
+msgid "Sleep"
+msgstr "Uyku"
+
+#: ../contents/ui/main.qml
+msgid "Restart..."
+msgstr "Tekrar Başlat..."
+
+#: ../contents/ui/main.qml
+msgid "Shut Down..."
+msgstr "Kapat..."
+
+#: ../contents/ui/main.qml
+msgid "Lock Screen"
+msgstr "Kilit Ekranı"
+
+#: ../contents/ui/main.qml
+msgid "Log Out"
+msgstr "Çıkış Yap"
+
+#: ../contents/config/config.qml
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: ../contents/config/config.qml
+msgid "Help"
+msgstr "Yardım"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Adapt the links with your own command lines"
+msgstr "Bağlantıları kendi komut satırlarınızla uyarlayın"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid ""
+"( Warning : This is the expert mode, do not change anything if the"
+" application is working properly. )"
+msgstr ""
+"(Uyarı: Bu uzman modudur, uygulama düzgün çalışıyorsa hiçbir şeyi"
+" değiştirmeyin.)"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Show advanced mode"
+msgstr "Gelişmiş modu göster"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "About This Computer :"
+msgstr "Bu Bilgisayar Hakkında:"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "System Preferences :"
+msgstr "Sistem Tercihleri :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "App Store :"
+msgstr "Uygulama Mağazası :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Force Quit :"
+msgstr "Kapatmaya Zorla :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Sleep :"
+msgstr "Uyku :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Restart :"
+msgstr "Tekrar Başlat :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Shut Down :"
+msgstr "Kapat :"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Lock Screen :"
+msgstr "Kilit Ekranı:"
+
+#: ../contents/ui/config/configGeneral.qml
+msgid "Log Out :"
+msgstr "Çıkış Yap :"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "Do you need help ?"
+msgstr "Yardıma ihtiyacın var mı ?"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "About Kpple"
+msgstr "Kpple Hakkında"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "Consult the user's guide"
+msgstr "Kullanıcı kılavuzuna başvurun"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "Repport a bug"
+msgstr "Hata bildirin"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "Donate for the project"
+msgstr "Proje için bağış yapın"
+
+#: ../contents/ui/config/configHelp.qml
+msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
+msgstr "Yardım bulamadınız mı? Bize ulaşın: info.kpple@gmail.com"
