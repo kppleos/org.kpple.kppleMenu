@@ -45,7 +45,7 @@ msgstr "Выключить..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Заблокировать экрна"
+msgstr "Заблокировать экран"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
