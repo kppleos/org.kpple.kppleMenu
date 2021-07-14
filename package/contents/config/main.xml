@@ -31,10 +31,10 @@
       <default>/sbin/shutdown now</default>
     </entry>
     <entry name="lockScreenSettings" type="String">
-      <default>qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock</default>
+      <default>loginctl lock-session</default>
     </entry>
     <entry name="logOutSettings" type="String">
-      <default>qdbus org.kde.ksmserver /KSMServer logout 0 0 0</default>
+      <default>loginctl terminate-user $(whoami)</default>
     </entry>
   </group>
   
