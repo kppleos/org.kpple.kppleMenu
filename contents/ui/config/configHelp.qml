@@ -61,7 +61,7 @@ Item {
                 MouseArea {
                     anchors.fill: parent
                     cursorShape: Qt.PointingHandCursor
-                    onClicked: Qt.openUrlExternally("https://github.com/Pear-Project/pearOS-Default-Menu/HELP.md");
+                    onClicked: Qt.openUrlExternally("https://github.com/Pear-Project/pearOS-Default-Menu/blob/master/HELP.md");
                 }
             }
             
@@ -77,7 +77,7 @@ Item {
                 MouseArea {
                     anchors.fill: parent
                     cursorShape: Qt.PointingHandCursor
-                    onClicked: Qt.openUrlExternally("https://github.com/Pear-Project/pearOS-Default-Menu/HELP.md");
+                    onClicked: Qt.openUrlExternally("https://github.com/Pear-Project/pearOS-Default-Menu/blob/master/HELP.md");
                 }
             }
             
