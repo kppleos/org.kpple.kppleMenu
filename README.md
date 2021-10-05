@@ -1,39 +1,32 @@
-# Kpple Menu
-
+# pearOS Menu
+The default pearOS Menu (found in top-left corner, with a pear logo)
 <p align="center">
     <img src="screenshots/pear_banner.png" alt="banner">
 </p>
 
-## Previews
+## Preview
 
 <p align="center">
     <img src="screenshots/light_kppleMenu.png" alt="light preview"> <img src="screenshots/dark_kppleMenu.png" alt="dark preview">
 </p>
 
-## How to install the Kpple menu without Kpple OS on KDE Plasma ?
+# Installation
+* run `install.sh` for automated install
 
-The recommended installation method is via the KDE store.
-
-#### You can also use another install method ( by git ) :
-
-Open a terminal and follow the steps below.
+* Manual installation:
 
 ```bash
-
-git clone https://github.com/kppleos/org.kpple.kppleMenu.git
-mv org.kpple.kppleMenu/package/* org.kpple.kppleMenu/
-rm org.kpple.kppleMenu/package/
-mv org.kpple.kppleMenu/ ~/.local/share/plasma/plasmoids/org.kpple.kppleMenu 
-
+git clone https://github.com/Pear-Project/pearOS-Default-Menu
+sudo mkdir -p /usr/share/plasma/plasmoids/xyz.pear.menu
+sudo mv pearOS-Default-Menu/* /usr/share/plasma/plasmoids/xyz.pear.menu
 ```
 
-## Donate
+# Copyright
 
-If you like my projects and you want to support me, you can donate at:
+The `pear_banner` file is made by Andrei Muntean
 
-<span class="paypal"><a href="https://www.paypal.me/borgnietrudy" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
+This `plasma widget`/`plasmoid`/`application` is made by Kpple.org and released under the GNU General Public License V2.
 
-## License
+This present code represents a `fork`/`modification` of the original code
 
-GNU GPL v2.0
-
+Present code is eited by Alexandru Balan under the Pear Project, and released under the GNU General Public License V2.
