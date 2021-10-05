@@ -1,7 +1,7 @@
 # Kpple Menu
 
 <p align="center">
-    <img src="screenshots/kpple_banner.png" alt="banner">
+    <img src="screenshots/pear_banner.png" alt="banner">
 </p>
 
 ## Previews
