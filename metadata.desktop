@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=Pear Menu
+Comment=Pear menu, based on Kpple Menu
+Type=Service
+Icon=file:///usr/share/icons/drawing.svg
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-KDE-PluginInfo-Author=Alexandru Balan, fork from Kpple.org
+X-KDE-PluginInfo-Email=alex@pearos.xyz
+X-KDE-PluginInfo-Name=xyz.pear.menu
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/Pear-Project/pearOS-Default-Menu
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-License=LGPL-2.0
+X-KDE-PluginInfo-EnabledByDefault=true
