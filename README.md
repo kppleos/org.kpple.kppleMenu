@@ -23,7 +23,7 @@ sudo mv pearOS-Default-Menu/* /usr/share/plasma/plasmoids/xyz.pear.menu
 
 # Copyright
 
-The `pear_banner` file is made by Andrei Muntean
+The `pear_banner` file is made by @RickRollMaster101
 
 This `plasma widget`/`plasmoid`/`application` is made by Kpple.org and released under the GNU General Public License V2.
 
