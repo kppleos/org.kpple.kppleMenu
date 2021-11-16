@@ -7,18 +7,19 @@ msgstr ""
 "Project-Id-Version: KppleMenu\n"
 "Report-Msgid-Bugs-To: https://github.com/kppleos/org.kpple.kppleMenu\n"
 "POT-Creation-Date: 2020-05-19\n"
-"PO-Revision-Date: 2021-01-06 11:29+0000\n"
+"PO-Revision-Date: 2021-01-06 11:16+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language: pt\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: ../contents/ui/main.qml
 msgid "About This Computer"
-msgstr "Acerca deste computador"
+msgstr "Sobre este computador"
 
 #: ../contents/ui/main.qml
 msgid "System Preferences..."
@@ -26,7 +27,7 @@ msgstr "Preferências do Sistema..."
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
-msgstr "Loja de Aplicações..."
+msgstr "Loja de aplicativos..."
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
@@ -34,7 +35,7 @@ msgstr "Forçar Encerramento..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Hibernar"
+msgstr "Repouso"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
@@ -42,15 +43,15 @@ msgstr "Reiniciar..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "Encerrar..."
+msgstr "Desligar..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Bloquear Ecrã"
+msgstr "Bloquear"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "Terminar Sessão"
+msgstr "Sair"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
@@ -62,11 +63,11 @@ msgstr "Ajuda"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
-msgstr "Adapte as ligações com as suas próprias linhas de comando"
+msgstr "Adapte links com suas próprias linhas de comando"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( Aviso : Este é o modo avançado, não altere nada se a aplicação estiver a funcionar corretamente. )"
+msgstr "( Aviso : Este é o modo especialista, não altere nada se o aplicativo estiver funcionando corretamente. )"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
@@ -74,7 +75,7 @@ msgstr "Mostrar modo avançado"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "About This Computer :"
-msgstr "Acerca deste computador :"
+msgstr "Sobre este computador :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
@@ -82,7 +83,7 @@ msgstr "Preferências do Sistema :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
-msgstr "Loja de Aplicações :"
+msgstr "Loja de aplicativos :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
@@ -90,7 +91,7 @@ msgstr "Forçar Encerramento :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Hibernar :"
+msgstr "Repouso :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
@@ -98,27 +99,27 @@ msgstr "Reiniciar :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "Encerrar :"
+msgstr "Desligar :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Bloquear Ecrã :"
+msgstr "Bloquear :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Terminar Sessão :"
+msgstr "Finalizar Sessão :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
-msgstr "Precisa de ajuda ?"
+msgstr "Você precisa de ajuda ?"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "About Kpple"
-msgstr "Acerca do Kpple"
+msgstr "Sobre o Kpple"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Consult the user's guide"
-msgstr "Consulte o guia do utilizador"
+msgstr "Consulte o guia do usuário"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Repport a bug"
@@ -126,8 +127,8 @@ msgstr "Reportar um erro"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Donate for the project"
-msgstr "Doar para o projecto"
+msgstr "Doe para o projeto"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "Não conseguiu encontrar ajuda? Contacte-nos em : info.kpple@gmail.com"
+msgstr "Não encontrou ajuda ? Entre em contato conosco no seguinte endereço : info.kpple@gmail.com"
