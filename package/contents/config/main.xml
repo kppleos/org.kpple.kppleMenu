@@ -38,10 +38,10 @@
       <default>systemctl suspend</default>
     </entry>
     <entry name="restartSettings" type="String">
-      <default>/sbin/reboot</default>
+      <default>qdbus org.kde.ksmserver /KSMServer logout 0 1 2</default>
     </entry>
     <entry name="shutDownSettings" type="String">
-      <default>/sbin/shutdown now</default>
+      <default>qdbus org.kde.ksmserver /KSMServer logout 0 2 2</default>
     </entry>
     <entry name="lockScreenSettings" type="String">
       <default>qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock</default>
