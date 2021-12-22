@@ -29,15 +29,15 @@ msgstr "App Store..."
 
 #: ../contents/ui/main.qml
 msgid "Force Quit..."
-msgstr "Форс-бросить..." 
+msgstr "Принудительно завершить..." 
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "Приостановить деятельность"
+msgstr "Режим сна"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "Перезапустить..."
+msgstr "Перезагрузить..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
@@ -45,19 +45,19 @@ msgstr "Выключить..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "Экран блокировки"
+msgstr "Заблокировать экран"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "Выход из системы"
+msgstr "Завершить сеанс"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "продвинутый"
+msgstr "Расширенные настройки"
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "Помощь"
+msgstr "Справка"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
@@ -65,7 +65,7 @@ msgstr "Адаптируйте ссылки с помощью собственн
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
-msgstr "( Предупреждение : это режим эксперта, ничего не меняйте, если приложение работает правильно. )"
+msgstr "( Предупреждение : Это режим эксперта, ничего не меняйте, если приложение работает правильно. )"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Show advanced mode"
@@ -85,15 +85,15 @@ msgstr "App Sotre :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Force Quit :"
-msgstr "Форс-бросить :" 
+msgstr "Принудительно завершить :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "Приостановить деятельность :"
+msgstr "Режим сна :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "Перезапустить :"
+msgstr "Перезагрузить :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
@@ -101,11 +101,11 @@ msgstr "Выключить :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "Экран блокировки :"
+msgstr "Заблокировать экран :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "Выход из системы :"
+msgstr "Завершить сеанс :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
