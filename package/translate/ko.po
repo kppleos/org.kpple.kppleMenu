@@ -21,7 +21,7 @@ msgstr "이 컴퓨터에 대하여"
 
 #: ../contents/ui/main.qml
 msgid "System Preferences..."
-msgstr "시스템 환경 설정..." 
+msgstr "시스템 설정..." 
 
 #: ../contents/ui/main.qml
 msgid "App Store..."
@@ -33,31 +33,31 @@ msgstr "강제 종료..."
 
 #: ../contents/ui/main.qml
 msgid "Sleep"
-msgstr "활동 일시 중지"
+msgstr "대기 모드"
 
 #: ../contents/ui/main.qml
 msgid "Restart..."
-msgstr "재시작하기 위해..."
+msgstr "다시 시작..."
 
 #: ../contents/ui/main.qml
 msgid "Shut Down..."
-msgstr "끄다..."
+msgstr "컴퓨터 끄기..."
 
 #: ../contents/ui/main.qml
 msgid "Lock Screen"
-msgstr "잠금 화면"
+msgstr "화면 잠금"
 
 #: ../contents/ui/main.qml
 msgid "Log Out"
-msgstr "로그 아웃"
+msgstr "로그아웃"
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr "많은"
+msgstr "고급"
 
 #: ../contents/config/config.qml
 msgid "Help"
-msgstr "도움"
+msgstr "도움말"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Adapt the links with your own command lines"
@@ -77,7 +77,7 @@ msgstr "이 컴퓨터에 대하여 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "System Preferences :"
-msgstr "시스템 환경 설정 :" 
+msgstr "시스템 설정 :" 
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "App Store :"
@@ -89,23 +89,23 @@ msgstr "강제 종료 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Sleep :"
-msgstr "활동 일시 중지 :"
+msgstr "대기 모드 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Restart :"
-msgstr "재시작하기 위해 :"
+msgstr "다시 시작 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Shut Down :"
-msgstr "끄다 :"
+msgstr "컴퓨터 끄기 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Lock Screen :"
-msgstr "잠금 화면 :"
+msgstr "화면 잠금 :"
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "Log Out :"
-msgstr "로그 아웃 :"
+msgstr "로그아웃 :"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Do you need help ?"
@@ -129,6 +129,6 @@ msgstr "프로젝트 기부"
 
 #: ../contents/ui/config/configHelp.qml
 msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
-msgstr "도움이 없습니까? 다음 주소로 문의하십시오 : info.kpple@gmail.com"
+msgstr "도움말을 찾을 수 없습니까? 다음 주소로 문의하십시오 : info.kpple@gmail.com"
 
  
